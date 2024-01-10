@@ -1,0 +1,112 @@
+*{
+    font-family: sans-serif;
+    font-size: 1em;
+    margin: 1 auto auto;
+}
+body{
+    background-color: #EDEFEE;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+
+}
+h1{
+    font-size: 3rem;
+    margin-left: 1rem;
+}
+
+h2{
+    font-size: 2rem;
+    margin-left: 1rem;
+}
+
+header > img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1rem;
+
+}
+a:link {
+    color: black;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav{
+    background-color: grey;
+    border-radius: 10px;
+    display: block;
+    overflow: hidden;
+    text-align: center;
+}
+nav ul {
+    list-style: none;
+    font-size: 2rem;
+    /*text-align: center;*/
+    display: inline-flex;
+    
+    /*float: left;*/
+    margin-left: 0;
+}
+ul li{
+    padding-right: 1rem;
+}
+section article{
+    background-color: grey;
+    border-radius: 10px;
+    text-align: justify;
+}
+
+section {
+    display: flex;
+    gap: 2rem 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+}
+
+article {
+    flex: 1 0;
+}
+
+footer{
+    display: flex;
+}
+footer div{
+    flex: 1 0;
+}
+main{
+    margin-bottom: 1rem;
+}
+p{
+    margin:1rem 1rem 1rem;
+}
+#background_photo{
+    background-image: url("jewelry_image.jpg");
+    background-size: cover;
+    background-position: center;
+}
+article img{
+    width: 15rem;
+    height: 10rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: 10px;
+}
+nav ul a:hover{
+    text-decoration: underline;
+    text-decoration-thickness: 0.1rem;
+}
+footer p {
+    border-top: #333333;
+    border-style: solid;
+    border-width: 0.1rem;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    text-align: right;
+}
+.logo:hover {
+    transform: rotateY(360deg);
+    transition: 1s;
+}
